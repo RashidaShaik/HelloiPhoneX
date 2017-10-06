@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     //need to work on it
-        self.view.backgroundColor = .red
+        self.view.backgroundColor = .green
     }
 
     override func didReceiveMemoryWarning() {
