@@ -14,7 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     //need to work on it
-        self.view.backgroundColor = .green
+        self.view.backgroundColor = .purple
+        self.navigationController?.navigationBar.isHidden = true
+        
     }
 
     override func didReceiveMemoryWarning() {
